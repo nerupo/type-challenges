@@ -1,4 +1,4 @@
-import type { Equal, Expect, NotAny } from '@type-challenges/utils'
+import type { Equal, Expect, NotAny } from '../../utils'
 
 type cases = [
   Expect<NotAny<HelloWorld>>,

@@ -1,4 +1,4 @@
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
 
 const tuple = ['tesla', 'model 3', 'model X', 'model Y'] as const
 const tupleNumber = [1, 2, 3, 4] as const

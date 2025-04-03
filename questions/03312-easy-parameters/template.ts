@@ -1,1 +1,4 @@
-type MyParameters<T extends (...args: any[]) => any> = any
+type MyParameters<T> =
+  T extends (...args: infer Arg) => unknown
+    ? Arg
+    : never

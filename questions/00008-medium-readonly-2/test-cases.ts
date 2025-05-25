@@ -1,4 +1,4 @@
-import type { Alike, Expect } from '@type-challenges/utils'
+import type { Alike, Expect } from '../../utils'
 
 type cases = [
   Expect<Alike<MyReadonly2<Todo1>, Readonly<Todo1>>>,
